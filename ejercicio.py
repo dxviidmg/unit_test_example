@@ -3,7 +3,6 @@ def is_multiplo(n, m):
         return True
     return False
 
-
 def is_multiplo_de_3(n):
     return is_multiplo(n, 3)
 
@@ -24,6 +23,7 @@ def decide_to_print(i):
             print('bizz')
         else:
             print('fuzz')
+
 def main():
     for i in range(20):
         decide_to_print(i)
